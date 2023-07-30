@@ -1,9 +1,13 @@
 import { Escena } from "./components/escena/Escena";
+import { historyText } from "./data/historyText";
+
 function App() {
   return (
     <div>
       <div>
-        <Escena />
+        {historyText.map((element) => (
+          <Escena text={element.text} />
+        ))}
       </div>
     </div>
   );
