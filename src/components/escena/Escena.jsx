@@ -1,1 +1,5 @@
-export const Escena = (props) => <p>{props.text}</p>;
+import { StyledEscenas } from "./Escena.styled.js";
+
+export const Escena = ({ text }) => (
+  <StyledEscenas className="text">{text}</StyledEscenas>
+);
