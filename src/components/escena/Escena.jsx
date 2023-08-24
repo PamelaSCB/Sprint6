@@ -1,5 +1,10 @@
-import { StyledEscenas } from "./Escena.styled.js";
+import { StyledEscenas } from "./Escena.styled";
 
-export const Escena = ({ text }) => (
-  <StyledEscenas className="text">{text}</StyledEscenas>
+export const Escena = ({ isActive, text }) => (
+  <StyledEscenas
+    className={`
+"text" ${isActive ? "activeFund" : ""}`}
+  >
+    {text}
+  </StyledEscenas>
 );
