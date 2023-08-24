@@ -3,6 +3,7 @@ import { Escena } from "./components/escena/Escena";
 import { historyText } from "./data/historyText";
 import { Botones } from "./components/botones/Botones";
 import { useState } from "react";
+import { Welcome } from "./components/bienvenida/Bienvenida";
 
 function App() {
   const [position, setPosition] = useState(1);
@@ -13,7 +14,14 @@ function App() {
   const activeBack = () =>
     position !== 1 && setPosition((position) => position - 1);
 
-  return (
+  const [welcomePage, setPage] = useState(true);
+  const nextPage = () => {
+    setPage(false);
+  };
+
+  return welcomePage === true ? (
+    <Welcome següent={nextPage} />
+  ) : (
     <div className="App">
       <NormalizeModern />
 
