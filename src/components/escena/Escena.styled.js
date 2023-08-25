@@ -7,8 +7,14 @@ export const StyledEscenas = styled.div`
   text-align: center;
   border: 0.2rem solid #000;
   border-radius: 2rem;
+  background-color: #f5eef8;
 
   &.activeFund {
-    background-color: #e9c7d6;
+    background-color: #e7c1d2;
   }
+`;
+
+export const DivEscenas = styled.div`
+  display: flex;
+  flex-direction: column;
 `;

@@ -14,6 +14,7 @@ export const StyleButtons = styled.div`
   font-size: 2rem;
   border: 0.1rem solid #000;
   border-radius: 1rem;
+  background-color: #f5eef8;
 
   &:hover {
     background-color: #e7c1d2;

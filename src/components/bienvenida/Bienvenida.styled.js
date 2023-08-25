@@ -1,22 +1,21 @@
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 import imagenFondo from "../../assets/img_welcome/fondo-galaxia-espacial.jpg";
-import { StyleButtons } from "../botones/Botones.styled";
+import { StyleButtons } from "../Botones/Botones.styled";
 
 export const StyledWelcome = createGlobalStyle`
-body {
+
 background: url(${imagenFondo});
 background-position: center; 
 background-attachment:fixed; 
 background-size: cover; 
 background-repeat: no-repeat; 
-}
 `;
+
 export const StyledContainer = styled.div`
   position: relative;
   top: 50%;
-  left: 20%;
-  rigth: 20%;
+  left: 25%;
   transform: traslate(-50%, -50%);
   padding: 4rem;
   background-color: #fff;
@@ -36,8 +35,9 @@ export const WelcomeText = styled.div`
 
   & h1 {
     margin-bottom: 2.5rem;
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
+
   & p {
     margin: 2rem 0;
     font-size: 1.8rem;
@@ -50,8 +50,8 @@ width:60%;
 object-fit:scale-down;
 border:.2rem solid #000; 
 border-radius: 1rem: 
-
 `;
+
 export const ButtonsS = styled(StyleButtons)`
   width: 25vw;
   padding: 0.5rem;

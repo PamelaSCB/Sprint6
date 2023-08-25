@@ -11,8 +11,8 @@ export const Welcome = ({ següent }) => {
   return (
     <>
       <StyledWelcome />
-      <StyledContainer className="container">
-        <WelcomeText className="cointainer-text">
+      <StyledContainer>
+        <WelcomeText>
           <h1> Benvingut al Projecte React- Sprint 6 </h1>
           <p>
             En aquet projecte es tracta de desenvolupar un tutorial, en el qual,
@@ -21,10 +21,8 @@ export const Welcome = ({ següent }) => {
           </p>
         </WelcomeText>
 
-        <ImgS className="imgSprint6" src={imagenSprint6} alt="fotosprint6" />
-        <ButtonsS onClick={següent} className="welcomeButton">
-          Començar
-        </ButtonsS>
+        <ImgS src={imagenSprint6} alt="fotosprint6" />
+        <ButtonsS onClick={següent}>Començar</ButtonsS>
       </StyledContainer>
     </>
   );
