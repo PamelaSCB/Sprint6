@@ -1,5 +1,4 @@
 import {
-  StyledWelcome,
   StyledContainer,
   WelcomeText,
   ImgS,

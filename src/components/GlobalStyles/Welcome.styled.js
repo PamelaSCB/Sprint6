@@ -8,6 +8,5 @@ background-position: center;
 background-attachment:fixed; 
 background-size: cover; 
 background-repeat: no-repeat; 
-
 }
 `;

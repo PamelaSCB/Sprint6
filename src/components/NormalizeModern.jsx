@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const NormalizeModern = createGlobalStyle`
 
@@ -303,6 +303,6 @@ Add the correct display in Chrome and Safari.
 summary {
 	display: list-item;
 }
-`; 
+`;
 
 export default NormalizeModern;
