@@ -5,6 +5,7 @@ import { Escena } from "./components/Escena/Escena";
 import { Botones } from "./components/Botones/Botones";
 import { Welcome } from "./components/Bienvenida/Bienvenida";
 import { StyledHistory } from "./components/GlobalStyles/History.styled";
+import { StyledWelcome } from "./components/GlobalStyles/Welcome.styled";
 
 function App() {
   const [position, setPosition] = useState(1);
@@ -21,10 +22,11 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="App">
       <NormalizeModern />
       {welcomePage === true ? (
         <>
+          <StyledWelcome className="styledWelcome" />
           <Welcome següent={nextPage} />
         </>
       ) : (

@@ -1,20 +1,9 @@
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
-import imagenFondo from "../../assets/img_welcome/fondo-galaxia-espacial.jpg";
 import { StyleButtons } from "../Botones/Botones.styled";
-
-export const StyledWelcome = createGlobalStyle`
-
-background: url(${imagenFondo});
-background-position: center; 
-background-attachment:fixed; 
-background-size: cover; 
-background-repeat: no-repeat; 
-`;
 
 export const StyledContainer = styled.div`
   position: relative;
-  top: 50%;
+  top: 60%;
   left: 25%;
   transform: traslate(-50%, -50%);
   padding: 4rem;

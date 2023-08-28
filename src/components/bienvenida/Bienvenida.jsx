@@ -10,9 +10,9 @@ import imagenSprint6 from "../../assets/img/1.jpg";
 export const Welcome = ({ següent }) => {
   return (
     <>
-      <StyledWelcome />
-      <StyledContainer>
-        <WelcomeText>
+      {/* <StyledWelcome className="styleWelcome"/> */}
+      <StyledContainer className="styledCointainer">
+        <WelcomeText className="WelcomeText">
           <h1> Benvingut al Projecte React- Sprint 6 </h1>
           <p>
             En aquet projecte es tracta de desenvolupar un tutorial, en el qual,
