@@ -17,6 +17,7 @@ export const Welcome = ({ següent }) => {
             En aquet projecte es tracta de desenvolupar un tutorial, en el qual,
             mitjançant dos botons, els nous usuaris puguin avançar i retrocedir
             en els consells, modificant-ne el text d'ajuda i la imatge de fons.
+            Vols anar a veure el projecte?
           </p>
         </WelcomeText>
 
