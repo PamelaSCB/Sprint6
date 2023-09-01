@@ -1,9 +1,9 @@
 import NormalizeModern from "./components/NormalizeModern";
 import { useState } from "react";
 import { history } from "./data/History";
-import { Escena } from "./components/Escena/Escena";
-import { Botones } from "./components/Botones/Botones";
-import { Welcome } from "./components/Bienvenida/Bienvenida";
+import { Escena } from "./components/escena/Escena";
+import { Botones } from "./components/botones/Botones";
+import { Welcome } from "./components/bienvenida/Bienvenida";
 import { StyledHistory } from "./components/GlobalStyles/History.styled";
 import { StyledWelcome } from "./components/GlobalStyles/Welcome.styled";
 
